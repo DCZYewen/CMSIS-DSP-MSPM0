@@ -10,6 +10,8 @@ $  xmake f --toolchain=tiarmclang
 $  xmake build cmsis-dsp-mspm0-ticlang
 ```
 Tested under arm-none-eabi-gcc 13.1 and ticlang 3.43 LTS.
+You must have gcc arm-none-eabi which could be downloaded from ARM, even ticlang builds use the gccar as well.
+Using gcc is recommended, but tiarm clang also works.
 
 ### From my precompiled binary
 Download the library from this reps's release, add Include to ur IDE's include path or use -IInclude then
